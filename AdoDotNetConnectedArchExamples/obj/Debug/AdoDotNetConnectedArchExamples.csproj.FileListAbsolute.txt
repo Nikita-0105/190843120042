@@ -1,0 +1,15 @@
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\obj\Debug\AdoDotNetConnectedArchExamples.csprojAssemblyReference.cache
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\obj\Debug\AdoDotNetConnectedArchExamples.Form1.resources
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\obj\Debug\AdoDotNetConnectedArchExamples.Properties.Resources.resources
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\obj\Debug\AdoDotNetConnectedArchExamples.csproj.GenerateResource.cache
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\AdoDotNetConnectedArchExamples.exe.config
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\AdoDotNetConnectedArchExamples.exe
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\AdoDotNetConnectedArchExamples.pdb
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\MySql.Data.dll
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\Google.Protobuf.dll
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\Renci.SshNet.dll
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\bin\Debug\MySql.Data.xml
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\obj\Debug\AdoDotNetConnectedArchExamples.csproj.CopyComplete
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\obj\Debug\AdoDotNetConnectedArchExamples.exe
+C:\Users\faculty\source\repos\AdoDotNetConnectedArchExamples\AdoDotNetConnectedArchExamples\obj\Debug\AdoDotNetConnectedArchExamples.pdb
