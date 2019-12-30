@@ -1,0 +1,139 @@
+<html>
+<head>
+ <meta charset='utf-8'>
+    <title>register page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <style>
+   .error{
+       color:red;
+   }
+   </style>
+   <script src="jquery.js"></script>
+   <script src="jquery.validate.js"></script>
+   <script src="additional-methods.js"></script>
+    <script>
+       $(document).ready(function(){
+        $.validator.addMethod("emailonly",function(value,element){
+            return this.optional(element) || /^([a-zA-Z_\#]+)\@([a-zA-Z]+)\.([a-zA-Z]{2,3})$/.test(value);
+        },"Invalid Email");
+
+        $('#frm').validate({
+            rules:{
+                uname:{required:true,lettersonly:true},
+                email:{required:true,emailonly:true},
+                pwd:{required:true,minlength:8,maxlength:12},
+                cpwd:{required:true,equalTo:'#pwd'
+				
+				
+				
+				}
+
+            },
+            messages:{
+		 
+                 uname:{required:"Please enter username",
+                lettersonly:'Enter only alphabets'},
+				
+				
+				
+            }
+
+
+        });
+            $('#ch').click(function(){
+                if($(this).is(':checked')){
+                    $("#sub").removeAttr('disabled');
+					$('#print').removeAttr('disabled');
+				
+                }
+                else{
+                    $('#sub').attr('disabled','disabled');
+					$('#print').atter('disabled','disabled');
+
+                }
+            });
+
+$('#print').click(function(){
+				
+				print();
+				
+				});
+$("button").click(function(){
+    var div = $("div");
+   
+    div.animate({width: '800px', opacity: '1'}, "slow");
+   
+  });
+
+$( "#frm" ).submit(function( event ) {
+  console.log( $( this ).serializeArray() );
+  event.preventDefault();
+
+  
+});
+
+ $("#sub").click(function(){
+    var x = $("#frm").serializeArray();
+  $.each(x, function(i, field){
+      $("#results").append(field.name + ":" + field.value + "\t ");
+	 // event.preventDefault();
+    });
+  });
+
+
+				  $("#pwd").blur(function(){
+    var u = $("#pwd");
+   
+    u.animate({width: '800px', opacity: '1'}, "slow");
+  });
+       })
+   </script> 
+</head>
+<body>
+<div class="container mt-3">
+  <h1>Registration Form</h1>
+	<div id="results"></div>
+	        <div class="col-5">
+		<div>
+        <form id='frm'>
+            <div class="form-group">
+                <label>UserName</label>
+                <input type="text" class="form-control" id="uname" name="uname">
+            </div>
+			<span id="ms1">  </span>
+		
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" id="pwd" name="pwd">
+            </div>
+            <div class="form-group">
+                <label>Confirm Password</label>
+                <input type="password" class="form-control" id="cpwd" name="cpwd">
+            </div>
+            <div class="form-group">
+                <label>Mobile</label>
+                <input type="number" class="form-control" id="mobile">
+            </div>
+			 <div class="form-group">
+                <label>source of info</label>
+                <select>
+				<option selected>select option</option>
+				<option>Online</option>
+				<option>teacher</option>
+				<option>friend</option>
+				<option>family</option>
+				</select>
+            </div>
+			<input type="submit" value="signup" id='sub' class="btn btn-primary">
+			</form>
+		</div>
+    </div>
+</div>
+</div>
+</body>
+</html>
